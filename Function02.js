@@ -5,9 +5,14 @@ function calculoIMC(alturaCadas , pesoCadas){
     const altura = alturaCadas
     const peso = pesoCadas
     const imc = peso / (altura * altura)
-    console.log(imc)
+
+    //Retorna o resultado da função para quem chamou
+    return imc;
 }
 
 // Chamar a função indicando os valores:
-calculoIMC(1.70 , 55)
-calculoIMC(1.80 , 60)
+const imcAlan = calculoIMC(1.70 , 55)
+const imcNicolas = calculoIMC(1.68 , 60)
+console.log(imcAlan , imcNicolas)
+
+//OBS: A função deve ter apenas uma responsabilidade
