@@ -3,7 +3,7 @@ const  numero1 = 10
 const numero2 = 20
 const Verdadeiro = true
 
-//&&/E: Retorna TRUE se os dois comparados forem TRUE 
+// &&/E: Retorna TRUE se os dois comparados forem TRUE 
 const ehIgualEMaior = (numero1 === numero1) && (numero1 > numero2)
 console.log(ehIgualEMaior)
 
