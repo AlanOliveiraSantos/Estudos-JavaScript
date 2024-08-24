@@ -1,0 +1,6 @@
+Exercício 22: Escreva um programa que determina o número de dias em um mês. 
+
+Descrição:  Neste exercício, você criará uma função que recebe o número de um mês e imprime o número de dias desse mês.
+
+31 dias = 1 , 3 , 5 , 7 , 8 , 10 , 12
+30 dias = 4 , 6 , 9 , 11
